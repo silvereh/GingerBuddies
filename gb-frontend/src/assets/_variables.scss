@@ -1,0 +1,49 @@
+@import './bootstrap/functions';
+@import './bootstrap/mixins';
+
+$white           : ghostwhite !default;
+$black           : black !default;
+$gold-light      : #ffd966 !default;
+$gold-dark       : goldenrod !default;
+$bronze          : #e58625 !default;
+$darkgrey        : #222222 !default;
+$whitesmoke      : whitesmoke !default;
+$navy            : navy !default;
+$lightgrey       : lightgrey !default;
+$lightslategrey  : lightslategrey !default;
+
+// dark theme
+$bg-body-dark    : $darkgrey !default;
+$bg-card-dark    : $black !default;
+$txt-body-dark   : $white !default;
+$faq-answer-dark : $lightgrey !default;
+
+// light theme
+$bg-body-light    : $whitesmoke !default;
+$bg-card-light    : $white !default;
+$txt-body-light   : $black !default;
+$faq-answer-light : $black !default;
+
+$bg-header  : $black !default;
+$bg-footer  : $black !default;
+$txt-header : $gold-light !default;
+$txt-footer : $gold-light !default;
+$icon-color : $gold-dark !default;
+
+$ff-sans:       sans-serif !default;
+$ff-serif:      serif !default;
+$ff-mono:       source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace !default;
+
+// scss-docs-start grid-breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+) !default;
+// scss-docs-end grid-breakpoints
+
+@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+@include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");
