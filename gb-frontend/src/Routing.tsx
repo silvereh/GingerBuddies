@@ -5,8 +5,8 @@ import { Home } from './Home';
 
 const Routing = () => (
   <Routes data-testid="Routing">
-    <Route path="/" element={ <Home /> } />
-    <Route path="/*" element={ <div /> }></Route>
+    <Route path="/GingerBuddies/" element={ <Home /> } />
+    <Route path="/GingerBuddies/*" element={ <div /> }></Route>
   </Routes>
 );
 
