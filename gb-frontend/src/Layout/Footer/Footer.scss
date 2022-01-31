@@ -1,0 +1,46 @@
+@import '../../assets/variables';
+
+.Footer {
+	color: $txt-footer;
+	background-color: $bg-footer;
+	padding: 10px;
+	position: relative;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	&-ul {
+		padding: 15px 0;
+		align-items: center;
+		justify-content: center;
+		display: flex;
+		margin: 0;
+	}
+	&-li {
+		list-style: none;
+		margin: 0 10px;
+	}
+	&-link {
+		text-decoration: none;
+		color: $txt-footer;
+		&:hover,
+		&:focus {
+			color: $icon-color;
+		}
+	}
+	[class^="icon-"],
+	[class*=" icon-"] {
+		font-size: 32px;
+	}
+	&-copy {
+		text-align: center;
+	}
+	@include media-breakpoint-up( md ) {
+		&-ul {
+			justify-content: start;
+		}
+		&-copy {
+			text-align: right;
+		}
+	}
+}

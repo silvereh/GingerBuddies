@@ -1,0 +1,23 @@
+@import '../../../assets/variables';
+
+.FAQQuestion {
+	color: darken( $green, 60% );
+	border-left: solid 10px darken( $green, 60% );
+
+	&:before {
+		display: inline-block;
+		font-family: $ff-heading;
+		content: 'Q.';
+		color: darken( $green, 60% );
+		padding: 10px;
+		font-size: 2em;
+		width: 60px;
+		height: 70px;
+	}
+
+	&-heading {
+		display: inline-block;
+		padding: 17px 5px;
+		margin: 0;
+	}
+}

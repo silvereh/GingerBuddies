@@ -1,0 +1,23 @@
+@import '../../assets/variables';
+
+.MediaSection {
+	.media {
+		&-wrapper {
+			width: 100%;
+		}
+
+		&-container {
+			margin-bottom: 30px;
+		}
+	}
+}
+
+@include media-breakpoint-only( md ) {
+	.MediaSection {
+		.media {
+			&-container {
+				margin-bottom: 0;
+			}
+		}
+	}
+}

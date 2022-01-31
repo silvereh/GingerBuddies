@@ -1,1 +1,55 @@
 @import './assets/variables';
+
+body {
+	font-family: $ff-sans;
+}
+
+h1, h2, h3 {
+	font-family: $ff-heading;
+}
+
+.bg-blue {
+	background-color: $blue;
+}
+.bg-teal {
+	background-color: $teal;
+}
+.bg-purple {
+	background-color: $purple;
+}
+.bg-pink {
+	background-color: $pink;
+}
+.bg-orange {
+	background-color: $orange;
+}
+.bg-yellow {
+	background-color: $yellow;
+}
+.bg-green {
+	background-color: $green;
+}
+
+.centered-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.centered-parent > * {
+  margin: auto;
+}
+
+.d-contents {
+  display: contents;
+}
+
+.sr-only {
+	@include visually-hidden;
+}
+.sr-only-focusable {
+	@include visually-hidden-focusable;
+}
+
+.main {
+	margin: 75px auto 0;
+}

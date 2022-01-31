@@ -3,36 +3,37 @@
 
 $white           : ghostwhite !default;
 $black           : black !default;
-$gold-light      : #ffd966 !default;
-$gold-dark       : goldenrod !default;
-$bronze          : #e58625 !default;
-$darkgrey        : #222222 !default;
-$whitesmoke      : whitesmoke !default;
-$navy            : navy !default;
-$lightgrey       : lightgrey !default;
-$lightslategrey  : lightslategrey !default;
+$blue            : #97c4ff !default;
+$teal            : #b8dfe6 !default;
+$purple          : #c5bbde !default;
+$pink            : #fbb0be !default;
+$orange          : #fdc9a4 !default;
+$yellow          : #f9eaad !default;
+$green           : #c3edbf !default;
+$brown           : #975525 !default;
 
 // dark theme
-$bg-body-dark    : $darkgrey !default;
-$bg-card-dark    : $black !default;
-$txt-body-dark   : $white !default;
-$faq-answer-dark : $lightgrey !default;
+$bg-body-dark    : $white !default;
+$bg-card-dark    : $white !default;
+$txt-body-dark   : $black !default;
+$faq-answer-dark : $white !default;
 
 // light theme
-$bg-body-light    : $whitesmoke !default;
+$bg-body-light    : $white !default;
 $bg-card-light    : $white !default;
 $txt-body-light   : $black !default;
-$faq-answer-light : $black !default;
+$faq-answer-light : $white !default;
 
-$bg-header  : $black !default;
-$bg-footer  : $black !default;
-$txt-header : $gold-light !default;
-$txt-footer : $gold-light !default;
-$icon-color : $gold-dark !default;
+$bg-header  : $blue !default;
+$bg-footer  : $blue !default;
+$txt-header : $black !default;
+$txt-footer : $black !default;
+$icon-color : $black !default;
 
-$ff-sans:       sans-serif !default;
-$ff-serif:      serif !default;
-$ff-mono:       source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace !default;
+$ff-heading : 'Berkshire Swash', cursive !default;
+$ff-sans    : 'Balsamiq Sans', cursive, sans-serif !default;
+$ff-serif   : serif !default;
+$ff-mono    : source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace !default;
 
 // scss-docs-start grid-breakpoints
 $grid-breakpoints: (

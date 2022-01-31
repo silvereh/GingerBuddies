@@ -1,3 +1,42 @@
 @import '../assets/variables';
 
-.Home {}
+.Home {
+	&-Section {
+		padding: 15px 30px;
+	}
+
+	.card {
+		border-radius: 15px;
+		margin-bottom: 15px;
+
+		&-img-top {
+			border-top-left-radius: 14px;
+			border-top-right-radius: 14px;
+		}
+	}
+
+	.groupshot {
+		border-bottom: 5px solid $brown;
+
+		&-wrapper {
+			width: 65%;
+
+			&::after {
+				display: block;
+				content: '';
+				height: 5px;
+				width: 100%;
+				margin-top: 5px;
+				background-color: $brown;
+			}
+		}
+	}
+}
+
+@include media-breakpoint-up( md ) {
+	.Home {
+		&-Section {
+			padding: 30px 60px;
+		}
+	}
+}

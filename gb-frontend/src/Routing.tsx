@@ -6,6 +6,7 @@ import { Home } from './Home';
 const Routing = () => (
   <Routes data-testid="Routing">
     <Route path="/" element={ <Home /> } />
+    <Route path="/*" element={ <div /> }></Route>
   </Routes>
 );
 
