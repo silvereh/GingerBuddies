@@ -41,16 +41,11 @@
 			padding: 10px;
 			// font-weight: bold;
 
-			&.outline {
-				border: 1px solid $txt-header;
-				color: $txt-header;
-				background-color: transparent;
-			}
-
 			&:hover,
 			&:focus {
-				background-color: $icon-color;
-				color: black;
+				border: 1px solid $txt-header;
+				background-color: darken( $bg-header, 15% );
+				color: $txt-header;
 				font-weight: 1000;
 			}
 		}
