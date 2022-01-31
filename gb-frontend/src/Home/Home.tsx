@@ -34,12 +34,12 @@ const Home = () => {
 				</div>
 				<div id="roadmap" className="Home-Section bg-orange text-center">
 					<h2 className="text-center">Roadmap</h2>
-					<div className="centered-parent">
+					<div className="centered-parent" aria-hidden="true" >
 						<div className="groupshot-wrapper">
 							<Image className="groupshot" src={ groupshot } fluid />
 						</div>
 					</div>
-					<Image src={ roadmap } fluid />
+					<Image src={ roadmap } alt="0% Sold Work begins on our Gingerladies/Gingerbabies NFT collections and our Magic Oven merging mechanism 25% Sold 1/1 Giveaway 2 x 0.25 ETH Giveaways 5 ETH to Treasury 1 ETH Charity Donation 50% Sold 1/1 Giveaway 2 x 0.5 ETH Giveaways 5 ETH to Treasury 1 ETH Charity Donation 75% Sold 1/1 Giveaway 2 x 0.75 ETH Giveaways 5 ETH to Treasury 2 ETH Charity Donation 100% Sold 1/1 Giveaway 2 x 1 ETH Giveaways 5 ETH to Treasury 2 ETH Charity Donation" fluid aria-hidden="true" />
 					<div className="sr-only">
 						<h3>0% Sold</h3>
 						<p>Work begins on our Gingerladies/Gingerbabies NFT collections and our Magic Oven merging mechanism</p>
