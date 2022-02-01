@@ -16,13 +16,14 @@ import atomic from '../assets/media/atomic.png';
 const Home = () => {
 	return (
 		<div className="Home" data-testid="Home">
+			<section className="Home-Section bg-house"></section>
 			<Container>
-				<div id="about">
+				<section id="about">
 					<MediaSection className="Home-Section bg-teal" heading="What are Gingerbuddies?" mediaSrc={ traits } mediaType="image">
 						<p>Born from a baking mishap in Mrs. Claus' kitchen, Gingerbuddies are a collection of 5000 gingerbread men baked fresh on the ethereum network.</p>
 						<p>Each gingerbuddy has a randomized combination of 150+ traits, giving them cool, funny, quirky and provably unique looks.</p>
 					</MediaSection>
-					<section className="Home-Section bg-purple">
+					<div className="Home-Section bg-purple">
 						<h2 className="text-center">Expanding the Gingerverse</h2>
 						<p>Following the release of Gingerbuddies (Gen 1), work begins on expanding the gingerverse with two complementary collections:</p>
 						<ul>
@@ -30,12 +31,12 @@ const Home = () => {
 							<li><strong>Gingerbabies</strong> (Gen 3): Hold Gingerbuddies + Gingerladies to mint 1 Gingerbaby free+ gas.</li>
 						</ul>
 						<p>Wondering what to do with all of them?</p>
-					</section>
+					</div>
 					<MediaSection className="bg-pink Home-Section" heading="The Magic Oven" mediaSrc={ oven } mediaFirst mediaType="image">
 						<p>Represent yourself and your loved ones in a single PFP! With our unique Magic Oven merging, just insert your chosen Gingerverse NFTs into the magic oven to bake them into a single picture. Users will be able to customize their PFPs based on their family/friend group composition. Families come in all shapes and sizes, now your PFP can too!</p>
 					</MediaSection>
-				</div>
-				<div id="roadmap" className="Home-Section bg-orange text-center">
+				</section>
+				<section id="roadmap" className="Home-Section bg-orange text-center">
 					<h2 className="text-center">Roadmap</h2>
 					<div className="centered-parent" aria-hidden="true" >
 						<div className="groupshot-wrapper">
@@ -67,8 +68,8 @@ const Home = () => {
 						<p>5 ETH to Treasury</p>
 						<p>2 ETH Charity Donation</p>
 					</div>
-				</div>
-				<div id="team" className="Home-Section bg-yellow">
+				</section>
+				<section id="team" className="Home-Section bg-yellow">
 					<h2 className="text-center">Team</h2>
 					<Row>
 						<Col xs={ 12 } md={ 6 } lg={ 3 }>
@@ -108,8 +109,8 @@ const Home = () => {
 							</Card>
 						</Col>
 					</Row>
-				</div>
-				<div id="faq" className="Home-Section bg-green">
+				</section>
+				<section id="faq" className="Home-Section bg-green">
 					<h2 className="text-center">FAQ</h2>
 					<FAQ.Panel>
 						<FAQ.Question>
@@ -167,7 +168,7 @@ const Home = () => {
 							</ul>
 						</FAQ.Answer>
 					</FAQ.Panel>
-				</div>
+				</section>
 			</Container>
 		</div>
 	);
