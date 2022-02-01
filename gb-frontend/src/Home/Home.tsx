@@ -9,7 +9,7 @@ import oven from '../assets/media/oven.gif';
 import groupshot from '../assets/media/groupshot.svg';
 import roadmap from '../assets/media/roadmap.svg';
 import garvbar from '../assets/media/garvbar.png';
-import lambdalf from '../assets/media/lambdalf.svg';
+import lambdalf from '../assets/media/lambdalf.png';
 import token from '../assets/media/token.png';
 import atomic from '../assets/media/atomic.png';
 
