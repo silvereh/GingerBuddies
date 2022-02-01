@@ -8,7 +8,10 @@ import traits from '../assets/media/traits.gif';
 import oven from '../assets/media/oven.gif';
 import groupshot from '../assets/media/groupshot.svg';
 import roadmap from '../assets/media/roadmap.svg';
-import lambdalf from '../assets/media/lambdalf.png';
+import garvbar from '../assets/media/garvbar.png';
+import lambdalf from '../assets/media/lambdalf.svg';
+import token from '../assets/media/token.png';
+import atomic from '../assets/media/atomic.png';
 
 const Home = () => {
 	return (
@@ -70,7 +73,7 @@ const Home = () => {
 					<Row>
 						<Col xs={ 12 } md={ 6 } lg={ 3 }>
 							<Card>
-							  <Card.Img variant="top" src={ lambdalf } />
+							  <Card.Img variant="top" src={ garvbar } />
 							  <Card.Body>
 							    <Card.Title>Garvbar</Card.Title>
 							    <Card.Text>Co-Founder / Artist</Card.Text>
@@ -88,7 +91,7 @@ const Home = () => {
 						</Col>
 						<Col xs={ 12 } md={ 6 } lg={ 3 }>
 							<Card>
-							  <Card.Img variant="top" src={ lambdalf } />
+							  <Card.Img variant="top" src={ token } />
 							  <Card.Body>
 							    <Card.Title>Token</Card.Title>
 							    <Card.Text>Artist / Community Manager</Card.Text>
@@ -97,7 +100,7 @@ const Home = () => {
 						</Col>
 						<Col xs={ 12 } md={ 6 } lg={ 3 }>
 							<Card>
-							  <Card.Img variant="top" src={ lambdalf } />
+							  <Card.Img variant="top" src={ atomic } />
 							  <Card.Body>
 							    <Card.Title>Atomic</Card.Title>
 							    <Card.Text>Community Manager</Card.Text>
