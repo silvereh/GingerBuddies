@@ -12,6 +12,8 @@ $yellow          : #f9eaad !default;
 $green           : #c3edbf !default;
 $brown           : #975525 !default;
 
+$gradient        : linear-gradient(225deg, $teal 0%, $teal 20%, $purple 30%, $pink 40%, $orange 55%, $yellow 70%, $green 95%) !default;
+
 // dark theme
 $bg-body-dark    : $white !default;
 $bg-card-dark    : $white !default;
